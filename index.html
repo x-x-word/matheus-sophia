@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nossa História</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Borel&family=Comic+Relief:wght@400;700&family=Edu+NSW+ACT+Hand+Pre:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="img/favicon.png" type="image/png">
+
+</head>
+
+<body>
+    <div class="start-screen">
+        <button class="start-btn" onclick="startLove()" aria-label="Começar a história">🤍 Clique</button>
+    </div>
+
+    <div class="container" id="loveContent">
+        <div class="swiper">
+            <div class="swiper-wrapper" id="swiperWrapper">
+            </div>
+        </div>
+
+        <div class="names">Matheus e Sophia</div>
+        <div class="text">
+            Queria te agradecer por tudo. Você me faz tão feliz só por existir na minha vida! Cada dia ao seu lado é especial, e eu me apego mais a você a cada conversa. Não me deixe, tá? Você é perfeita, minha deusa, e eu te amo demais! ❤️😍
+        </div>
+        <div class="counter" id="timeTogether">Contando...</div>
+
+        <video id="loveVideo" width="560" height="315" controls loop muted>
+            <source src="videos/musica.mp4" type="video/mp4">
+            Seu navegador não suporta o elemento de vídeo.
+        </video>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/luxon@3/build/global/luxon.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
